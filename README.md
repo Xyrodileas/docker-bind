@@ -67,6 +67,8 @@ I like to make all my external volumes on /srv/containername/volume so that is w
  you are restricting access to webmin.  You can add multiple IP addresses or ranges. 
  just separate them with a backslash semicolon. 
 
+ **WEBMINDNS** - This is used to set the referers' variable for webmin (If behind a proxy).
+
 ### Using Webmin ###
 
 You should probably follow the guide at webmin.com

@@ -30,3 +30,7 @@ if [ ! -z $NET ]; then
   cat /root/webmin/miniserv.conf > /etc/webmin/miniserv.conf
   echo 'allow='$MYNET >> /etc/webmin/miniserv.conf
 fi
+
+if [ ! -z $WEBMINDNS ]; then
+  echo 'referers='$WEBMINDNS >> /etc/webmin/config
+fi
